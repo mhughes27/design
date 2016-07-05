@@ -22,6 +22,7 @@
 	display: flex;
 	background-color: #cf4d4b;
 	justify-content: space-around;
+	align-items: center;
 	height: 75px;
 }
 .headings{
@@ -88,5 +89,6 @@
 	background-color: #c3cdd9;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	height: 75px;
 }
