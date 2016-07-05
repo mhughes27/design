@@ -12,29 +12,49 @@
 .leftcolumn{
 	flex: 0 0 12em;
 	background-color: #12161f;
+	padding-left:30px;
+
 
 }
 .search{
+	display: flex;
 	background-color: #cf4d4b;
+	justify-content: space-around;
+	height: 75px;
 }
 .headings{
 	color: #c3cdd9;
+	text-align: center;
+}
+
+.option{
+	display: flex;
+	justify-content: center;
+
 }
 .option__text{
 	color: #ecedef;
 
+
 }
 
 .maincontent{
+	display: flex;
 	flex: 1;
 	flex-wrap: wrap;
-
-}
-
-.header{
 	justify-content: space-around;
-}
 
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	width: 850px;
+	height: 75px;
+}
+.movie{
+	height: 240px;
+	width: 150px;
+}
 
 .rightcolumn{
 	flex: 0 0 12em;
@@ -44,10 +64,15 @@
 
 
 .user{
+	display: flex;
 	background-color: lightblue;
-	align-content: space-around;
+	justify-content: space-around;
+	height:75px;
 
 }
 .chat{
 	background-color: #c3cdd9;
+	display: flex;
+	justify-content: space-around;
+	height: 75px;
 }
