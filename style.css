@@ -1,0 +1,22 @@
+.supercontainer{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column; 
+}
+
+.container{
+	dislplay: flex;
+	flex: 1;
+}
+
+.leftcolumn{
+
+}
+
+.maincontent{
+
+}
+
+.rightcolumn{
+	
+}
