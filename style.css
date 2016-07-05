@@ -10,13 +10,24 @@
 }
 
 .leftcolumn{
-	flex: 0 0 15em;
-	background-color: orange;
+	flex: 0 0 12em;
+	background-color: #12161f;
+
+}
+.search{
+	background-color: #cf4d4b;
+}
+.headings{
+	color: #c3cdd9;
+}
+.option__text{
+	color: #ecedef;
 
 }
 
 .maincontent{
 	flex: 1;
+	flex-wrap: wrap;
 
 }
 
@@ -27,6 +38,16 @@
 
 .rightcolumn{
 	flex: 0 0 12em;
-	background-color: grey;
+	background-color: #ecedef;
 
+}
+
+
+.user{
+	background-color: lightblue;
+	align-content: space-around;
+
+}
+.chat{
+	background-color: #c3cdd9;
 }
