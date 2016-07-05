@@ -5,18 +5,23 @@
 }
 
 .container{
-	dislplay: flex;
+	display: flex;
 	flex: 1;
 }
 
 .leftcolumn{
+	flex: 0 0 15em;
+	background-color: darkgrey;
 
 }
 
 .maincontent{
+	flex: 1;
 
 }
 
 .rightcolumn{
-	
+	flex: 0 0 12em;
+	background-color: grey;
+
 }
