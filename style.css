@@ -11,7 +11,7 @@
 
 .leftcolumn{
 	flex: 0 0 15em;
-	background-color: darkgrey;
+	background-color: orange;
 
 }
 
@@ -19,6 +19,11 @@
 	flex: 1;
 
 }
+
+.header{
+	justify-content: space-around;
+}
+
 
 .rightcolumn{
 	flex: 0 0 12em;
