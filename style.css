@@ -9,18 +9,18 @@ a{
 .container{
 	display: flex;
 	flex: 1;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 65px;
+	padding-right: 65px;
 	font-family: Arial;	
 }
 
 .leftcolumn{
 	flex: 0 0 12em;
 	background-color: #12161f;
-	margin-left: 15px;
+	margin-left: 30px;
 }
 
-.search{
+.topleft{
 	display: flex;
 	background-color: #cf4d4b;
 	justify-content: space-around;
@@ -29,10 +29,26 @@ a{
 	padding-right: 13px;
 	padding-left:13px;
 }
+.search{
+	display: flex;
+	
+	border-bottom: 2px solid white;
+	
+}
+.search__text{
+	background-color: transparent;
+}
+.leftlist{
+	list-style-type: none;
+	justify-content: left;
+}
+.l-headings{
+	margin-left: 40px;
+}
 .headings{
 	color: #c3cdd9;
-	margin-left: 30px;
-	font-size: 12px;
+	font-size: 10px;
+	
 }
 
 .option{
@@ -44,7 +60,7 @@ a{
 .option__text{
 	color: #ecedef;
 	font-size: 12px;
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 .maincontent{
@@ -104,18 +120,22 @@ a{
 	height:75px;
 
 }
+.rightpanel{
+	/*margin-left: -30px;*/
+	padding-bottom: 7px;
+	/*justify-content: space-around;*/
+}
+.l-headings--right{
+	margin-left: 20px;
+}
+
 .members{
 	display: flex;
-	align-content: stretch;
+	align-content: space-around;
 	font-size: 12px;
-	margin-left: -30px;
+	/*margin-left: -30px;*/
 	padding-bottom: 7px;
 
-}
-.stackedText{
-	display: flex;
-	flex-direction: column;
-	padding-right: 10px;
 }
 
 .members__pic{
@@ -137,12 +157,15 @@ a{
 
 
 }
-.search--chat{
-	background-color: #c3cdd9;
+.rightbottom{
 	display: flex;
+	background-color: #c3cdd9;
 	justify-content: space-around;
 	align-items: center;
 	height: 75px;
 	padding-right: 13px;
-	padding-left: 13px;
+	padding-left:13px;
+}
+.search--chat{
+	
 }

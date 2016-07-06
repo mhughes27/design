@@ -11,13 +11,14 @@
 	<div class="container">
 		
 		<div class="leftcolumn">
-			
-			<div class="search">
-				<input class="search__text" type="search" name="text" placeholder="Search movies...">
-				<input class="search__icon"  type="image" src="magglass.png">
+			<div class="topleft">
+				<div class="search">
+					<input class="search__text" type="text" name="text" placeholder="Search movies...">
+					<input class="search__icon"  type="image" src="glass.png">
+				</div>
 			</div>
-			<h4 class="headings">Main</h4>
-			<ul class="list">
+			<h4 class="headings l-headings">Main</h4>
+			<ul class="leftlist">
 				<div class="option">
 					<img src="action.png" class="option__icon">
 					<div class="option__text">Playing</div>
@@ -39,8 +40,8 @@
 					<div class="option__text">New Releases</div>
 				</div>
 			</ul>
-			<h4 class="headings">Your Movie Circles</h4>
-			<ul class="list">
+			<h4 class="headings l-headings">Your Movie Circles</h4>
+			<ul class="leftlist">
 				<div class="option">
 					<img src="action.png" class="option__icon">
 					<div class="option__text">This I Must See</div>
@@ -50,8 +51,8 @@
 					<div class="option__text">The Best</div>
 				</div>
 			</ul>
-			<h4 class="headings">Collections</h4>
-			<ul class="list">
+			<h4 class="headings l-headings">Collections</h4>
+			<ul class="leftlist">
 				<div class="option">
 					<img src="action.png" class="option__icon">
 					<div class="option__text">Me and Bob</div>
@@ -128,6 +129,21 @@
 				<div class="movie__runtime">143 min</div>
 			</div>
 			<div class="movie">
+
+				<!-- <div class="currentMovie currentMovie--shown">
+					icon1
+					play icon
+					icons
+				</div>
+				<style type="text/css">
+					.currentMovie{
+						display: none;
+					}
+					.currentMovie.currentMovie--shown{
+						display: block;
+					}
+				</style> -->
+
 				<img src="poster.png" class="movie__poster">
 				<div class="movie__title">The Great Gatsby</div>
 				<div class="movie__genre">Drama, Romance</div>
@@ -178,95 +194,95 @@
 				<div class="user__name">Matt Hughes</div>
 				<div class="user__status"><img src="onlinedot.png"></div>
 			</div>
-			<h4 class="headings">Online</h4>
-			<ul class="list">
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">Victor Erixon</div>
-						<div class="members__movie">The Great Gatsby</div>
+			<div class="rightpanel">
+				<h4 class="headings l-headings--right">Online</h4>
+				<ul class="list">
+					<div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>
+							<div class="members__name">Victor Erixon</div>
+							<div class="members__movie">The Great Gatsby</div>
+						</div>
+						<div class="members__status"><img src="status.png"></div>
 					</div>
-					<div class="members__status"><img src="status.png"></div>
-				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">Gustav Butlex</div>
-						<div class="members__movie">Wolverine</div>
+					<div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>
+							<div class="members__name">Gustav Butlex</div>
+							<div class="members__movie">Wolverine</div>
+						</div>
+						<div class="members__status"><img src="yellowdot.png"></div>
 					</div>
-					<div class="members__status"><img src="yellowdot.png"></div>
-				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">Malte Jansson</div>
-						<div class="members__movie">Smurfs</div>
+					<div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>
+							<div class="members__name">Malte Jansson</div>
+							<div class="members__movie">Smurfs</div>
+						</div>
+						<div class="members__status"><img src="yellowdot.png"></div>
 					</div>
-					<div class="members__status"><img src="yellowdot.png"></div>
-				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">August Berglund</div>
-						<div class="members__movie">Californication</div>
+					<div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>
+							<div class="members__name">August Berglund</div>
+							<div class="members__movie">Californication</div>
+						</div>
+						<div class="members__status"><img src="status.png"></div>
 					</div>
-					<div class="members__status"><img src="status.png"></div>
-				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">Alicia Agneson</div>
-						<div class="members__movie">Swan Lake</div>
+					<div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>
+							<div class="members__name">Alicia Agneson</div>
+							<div class="members__movie">Swan Lake</div>
+						</div>
+						<div class="members__status"><img src="reddot.png"></div>
 					</div>
-					<div class="members__status"><img src="reddot.png"></div>
-				</div>
-			</ul>
-			<h4 class="headings">Offline</h4>
-			<ul class="list">
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">	
-						<div class="members__name">Bill S Kenney</div>
-						<div class="members__movie">Jobs</div>
+				</ul>
+				<h4 class="headings l-headings--right">Offline</h4>
+				<ul class="list">
+					<div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>	
+							<div class="members__name">Bill S Kenney</div>
+							<div class="members__movie">Jobs</div>
+						</div>
+						<div class="members__status"><img src="greydot.png"></div>
+					</div><div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>	
+							<div class="members__name">Charlie Waite</div>
+							<div class="members__movie">The Great Gatsby</div>
+						</div>
+						<div class="members__status"><img src="greydot.png"></div>
+					</div><div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>	
+							<div class="members__name">Justin Pervorse</div>
+							<div class="members__movie">Pacific Rim</div>
+						</div>
+						<div class="members__status"><img src="greydot.png"></div>
+					</div><div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>	
+							<div class="members__name">Trent Walton</div>
+							<div class="members__movie">Planes</div>
+						</div>
+						<div class="members__status"><img src="greydot.png"></div>
+					</div><div class="members">
+						<div class="members__pic"><img src="self.png"></div>
+						<div>	
+							<div class="members__name">Rogie King</div>
+							<div class="members__movie">2 Guns</div>
+						</div>
+						<div class="members__status"><img src="greydot.png"></div>
 					</div>
-					<div class="members__status"><img src="greydot.png"></div>
+				</ul>
+			</div>
+			<div class="rightbottom">
+				<div class="search search--chat">
+					<input class="search__text" type="search" name="text" placeholder="Chat with...">
+					<input class="search__icon" type="image" src="glass.png">
 				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">Charlie Waite</div>
-						<div class="members__movie">The Great Gatsby</div>
-					</div>
-					<div class="members__status"><img src="greydot.png"></div>
-				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">Justin Pervorse</div>
-						<div class="members__movie">Pacific Rim</div>
-					</div>
-					<div class="members__status"><img src="greydot.png"></div>
-				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">	
-						<div class="members__name">Trent Walton</div>
-						<div class="members__movie">Planes</div>
-					</div>
-					<div class="members__status"><img src="greydot.png"></div>
-				</div>
-				<div class="members">
-					<div class="members__pic"><img src="self.png"></div>
-					<div class="stackedText">
-						<div class="members__name">Rogie King</div>
-						<div class="members__movie">2 Guns</div>
-					</div>
-					<div class="members__status"><img src="greydot.png"></div>
-				</div>
-			</ul>
-			<div class="search search--chat">
-				<input class="search__text" type="search" name="text" placeholder="Chat with...">
-				<input class="search__icon" type="image" src="magglass.png">
 			</div>
 		</div>
 	</div>
