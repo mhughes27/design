@@ -13,16 +13,16 @@
 		<div class="leftcolumn">
 			
 			<div class="search">
-				<input type="search" name="text" placeholder="Search movies...">
-				<input type="image" src="magglass.png">
+				<input class="search__text" type="search" name="text" placeholder="Search movies...">
+				<input class="search__icon"  type="image" src="magglass.png">
 			</div>
 			<h4 class="headings">Main</h4>
-			<ul>
+			<ul class="list">
 				<div class="option">
 					<img src="action.png" class="option__icon">
 					<div class="option__text">Playing</div>
 				</div>
-				<div class="option">
+				<div class="option option--active">
 					<img src="action.png" class="option__icon">
 					<div class="option__text">Discover</div>
 				</div>
@@ -40,7 +40,7 @@
 				</div>
 			</ul>
 			<h4 class="headings">Your Movie Circles</h4>
-			<ul>
+			<ul class="list">
 				<div class="option">
 					<img src="action.png" class="option__icon">
 					<div class="option__text">This I Must See</div>
@@ -51,7 +51,7 @@
 				</div>
 			</ul>
 			<h4 class="headings">Collections</h4>
-			<ul>
+			<ul class="list">
 				<div class="option">
 					<img src="action.png" class="option__icon">
 					<div class="option__text">Me and Bob</div>
@@ -86,7 +86,7 @@
 			</div>	
 
 			<div class="movie">
-				<img src="poster.png" class="movie__poster">
+				<img src="current.png" class="movie__poster movie__poster--current">
 				<div class="movie__title">2 Guns</div>
 				<div class="movie__genre">Action, Comedy</div>
 				<div class="movie__runtime">109 min</div>
@@ -116,7 +116,7 @@
 				<div class="movie__runtime">122 min</div>
 			</div>
 			<div class="movie">
-				<img src="poster.png" class="movie__poster">
+				<img src="current.png" class="movie__poster movie__poster--current">
 				<div class="movie__title">Pacific Rim</div>
 				<div class="movie__genre">Action, Adventure</div>
 				<div class="movie__runtime">131 min</div>
@@ -179,7 +179,7 @@
 				<div class="user__status"><img src="onlinedot.png"></div>
 			</div>
 			<h4 class="headings">Online</h4>
-			<ul>
+			<ul class="list">
 				<div class="members">
 					<div class="members__pic"><img src="self.png"></div>
 					<div class="stackedText">
@@ -222,7 +222,7 @@
 				</div>
 			</ul>
 			<h4 class="headings">Offline</h4>
-			<ul>
+			<ul class="list">
 				<div class="members">
 					<div class="members__pic"><img src="self.png"></div>
 					<div class="stackedText">	
@@ -264,9 +264,9 @@
 					<div class="members__status"><img src="greydot.png"></div>
 				</div>
 			</ul>
-			<div class="chat">
-				<input type="search" name="text" placeholder="Chat with...">
-				<input type="image" src="magglass.png">
+			<div class="search search--chat">
+				<input class="search__text" type="search" name="text" placeholder="Chat with...">
+				<input class="search__icon" type="image" src="magglass.png">
 			</div>
 		</div>
 	</div>
