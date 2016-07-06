@@ -9,15 +9,15 @@
 	flex: 1;
 	padding-left: 80px;
 	padding-right: 80px;
+	font-family: Arial;	
 }
 
 .leftcolumn{
 	flex: 0 0 12em;
 	background-color: #12161f;
-
-
-
+	margin-left: 15px;
 }
+
 .search{
 	display: flex;
 	background-color: #cf4d4b;
@@ -27,19 +27,19 @@
 }
 .headings{
 	color: #c3cdd9;
-	text-align: center;
+	margin-left: 30px;
+	font-size: 12px;
 }
 
 .option{
 	display: flex;
-	padding-left: 20px;
+	
 
 }
 .option__text{
 	color: #ecedef;
-	size: 8px;
-
-
+	font-size: 12px;
+	padding-left: 15px;
 }
 
 .maincontent{
@@ -47,22 +47,42 @@
 	flex: 1;
 	flex-wrap: wrap;
 	justify-content: space-around;
-
+	padding-left: 20px;
+	padding-right:20px;
 }
 .header{
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-	width: 850px;
+	width: 830px;
 	height: 75px;
+	padding-right: 20px;
 }
 
-.header__center{
-	color: white;
+.toggleLinks{
+	color: grey;
+}
+.toggleLinks__text{
+	display: inline-block;
+	font-size: 12px;
+}
+.toggleLinks__divider{
+	display:inline-block;
+}
+.toggleLinks__text--inactive{
+	color:grey;
+}
+.toggleLinks__text--active{
+	color:#71c1c9;
 }
 .movie{
 	height: 240px;
 	width: 150px;
+	font-size: 12px;
+	color: grey;
+}
+.movie__title{
+	color: black;
 }
 
 .rightcolumn{
@@ -70,7 +90,6 @@
 	background-color: #ecedef;
 
 }
-
 
 .user{
 	display: flex;
@@ -82,9 +101,34 @@
 }
 .members{
 	display: flex;
-	justify-content: space-between;
+	align-content: space-between;
+	font-size: 12px;
+	margin-left: -30px;
+}
+.stackedText{
+	display: flex;
+	flex-direction: column;
 }
 
+.members__pic{
+	padding-right: 10px;
+	
+
+}
+.members__name{
+	color:black;
+
+}
+.members__movie{
+	color:grey;
+	
+
+}
+.members__status{
+	justify-content: right;
+
+
+}
 .chat{
 	background-color: #c3cdd9;
 	display: flex;
